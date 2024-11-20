@@ -1,0 +1,334 @@
+/* For Home Page */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sawarabi Mincho", "Playfair Display", serif;
+}
+
+body {
+  background-color: rgba(186, 213, 219, 0.873);
+}
+
+:root {
+  --color1: rgb(165, 99, 226);
+  --bgcolor: rgba(237, 228, 228, 0.775);
+}
+
+.divnav {
+  padding: 10px;
+  background-color: rgb(193, 151, 232);
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: inset 10px 10px 15px var(--color1);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  width: 90vw;
+  top: 5px;
+}
+
+.email,
+.name {
+  position: relative;
+  top: 20px;
+}
+
+.divnav .img1 img {
+  width: 80px;
+  height: 70px;
+  border-radius: 55px;
+  position: relative;
+}
+
+.img1 {
+  margin: 0;
+  padding: 0;
+  border: 2px solid var(--color1);
+  width: 80px;
+  height: 70px;
+  left: 30px;
+  position: relative;
+  border-radius: 50px;
+}
+
+.sectwo {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.about,
+.practices,
+.goal {
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid rgb(165, 99, 226);
+  background-color: var(--bgcolor);
+  box-shadow: 5px 5px 8px var(--color1);
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abouthead,
+.goalshead,
+.prachead {
+  margin: 5px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(165, 99, 226);
+  width: 50%;
+  font-size: 20px;
+  font-weight: 550;
+  padding: 5px;
+  color: black;
+}
+
+.abouttext,
+.practext,
+.goalstext {
+  padding: 5px;
+  font-size: 2.5vh;
+  text-align: center;
+  overflow: auto;
+}
+
+.resumebtn,.aboutbtn,
+.pracbtn,
+.goalsbtn {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  background-color: rgb(208, 172, 241);
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(165, 99, 226);
+  margin: 7px;
+}
+.about div:nth-child(3){
+  display: flex;
+  width: 90%;
+}
+.three {
+  border: 4px solid rgb(165, 99, 226);
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgb(165, 99, 226);
+  text-align: center;
+  font-size: 17px;
+  min-height: 30vh;
+  height: auto;
+  width: 95vw;
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: rgb(193, 151, 232);
+  justify-content: center;
+}
+
+.text {
+  margin: 30px auto;
+  position: relative;
+  width: 75%;
+}
+
+.contact {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  position: relative;
+  padding: 10px;
+  justify-content: center;
+}
+
+.email,
+.linked,
+.insta {
+  position: relative;
+  top: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(149, 56, 235);
+  border-radius: 15px;
+  min-width: 15%;
+  width: auto;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 20px;
+  height: 40px;
+}
+
+.connect {
+  background-color: var(--color1);
+  border-radius: 8px;
+  font-size: 22px;
+}
+
+.resumebtn a,.email a,
+.linked a,
+.insta a {
+  text-decoration: none;
+  color: black;
+}
+
+.abtupdate {
+  border: 2px solid var(--color1);
+  width: 90vw;
+  min-height: 80vh;
+  background-color: var(--bgcolor);
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px var(--color1);
+  background-color: rgb(193, 151, 232);
+}
+
+.divmain {
+  width: 30%;
+  height: 60%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.divmain img {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.divtxt {
+  width: 60%;
+  min-height: 90%;
+  background-color: rgba(186, 213, 219, 0.873);
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.pracupdate {
+  width: 100vw;
+  min-height: 90vh;
+  background-color: rgb(189, 189, 224);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pracdivleft,
+.pracdivright {
+  width: 45vw;
+  height: 90%;
+  margin: 5px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.childleft1,
+.childleft2,
+.childright1,
+.childright2 {
+  margin: 5px;
+  padding: 5px;
+  width: 95%;
+  min-height: 45%;
+  border-radius: 15px;
+  background-color: rgb(193, 151, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.childtext {
+  border: 2px solid rgb(167, 100, 230);
+  width: 55%;
+  height: 90%;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.childimg {
+  width: 35%;
+  height: 80%;
+  border-radius: 15px;
+  margin: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.images {
+  /* object-fit: cover; */
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.img1update {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.arrowimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.goalmain {
+  width: 90vw;
+  height: 80vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("CSE.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+.goalstxt {
+  width: 75%;
+  height: 70%;
+  /*border: 2px solid rgb(255, 255, 255);*/
+  border-radius: 15px;
+  color: aquamarine;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 10px;
+  overflow: auto;
+}
+.email:hover,
+.linked:hover,
+.insta:hover,.aboutbtn:hover,
+.pracbtn:hover,
+.goalsbtn:hover,.resumebtn:hover{
+  background-color: azure;
+  cursor: pointer;
+}

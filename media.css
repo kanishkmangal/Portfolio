@@ -1,0 +1,145 @@
+@media screen and (orientation: portrait) {
+    .img1 {
+      left: 0;
+    }
+    .sectwo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+    }
+    .info {
+      font-size: 4.5vh;
+      position: relative;
+      top: 10px;
+      /* left: 20px; */
+    }
+    .about,
+    .practices,
+    .goal {
+      width: 75vw;
+      height: 40vh;
+    }
+    .three {
+      width: 80vw;
+      min-height: 45vh;
+      /* height: 45vh; */
+    }
+    .text {
+      margin: 15px auto;
+      position: relative;
+      width: 85%;
+    }
+    .contact {
+      padding: 10px;
+    }
+    .email,
+    .linked,
+    .insta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      bottom: 10px;
+      font-size: 15px;
+    }
+ 
+    .abtupdate {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .divtxt {
+      width: auto;
+      height: auto;
+      background-color: rgba(186, 213, 219, 0.873);
+      border-radius: 15px;
+      box-sizing: border-box;
+      margin: 5px;
+      list-style-type: none;
+    }
+    .divmain {
+      margin: 0;
+    }
+    .pracupdate {
+      display: flex;
+      flex-direction: column;
+    }
+    .childtext {
+      padding: 5px;
+      overflow: auto;
+    }
+    .pracdivleft,
+    .pracdivright {
+      box-sizing: border-box;
+      width: 90vw;
+      height: 80vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .childleft1,
+    .childleft2,
+    .childright1,
+    .childright2 {
+      margin: 5px;
+      padding: 5px;
+      width: 95%;
+      min-height: 45%;
+      border-radius: 15px;
+      background-color: rgb(193, 151, 232);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .email,
+    .linked,
+    .insta {
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      bottom: 10px;
+      font-size: 15px;
+    }
+    .about div:nth-child(3){
+      display: block;
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .child {
+      padding: 5px;
+    }
+    .childimg {
+      height: 90%;
+    }
+    .pracdivleft,
+    .pracdivright {
+      box-sizing: border-box;
+      width: 90vw;
+      height: 60vh;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .goalmain{
+      height: 60vh;
+    }
+    .goalstxt{
+      height: 80%;
+      width: 70%;
+    }
+  }
